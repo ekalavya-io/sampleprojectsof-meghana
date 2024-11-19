@@ -36,7 +36,6 @@
 
 <script>
 import { evaluate } from "mathjs";
-
 export default {
   name: "App",
   data() {
@@ -50,6 +49,8 @@ export default {
     },
   },
 };
+
+
 </script>
 
 <style scoped>
@@ -68,9 +69,5 @@ button {
 .clear-button {
   width: 90px;
 }
-.display{
-  color:black;
-  text-align:center;
-  font-family:bold,
-}
+
 </style>

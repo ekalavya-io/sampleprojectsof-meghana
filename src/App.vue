@@ -1,17 +1,18 @@
 <script setup>
-import Calculator from './components/Calculator.vue'
 import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
   <header>
       <nav>
-        <RouterLink to="/">Calculator</RouterLink>
-      </nav>
+      <RouterLink to="/">Calculator</RouterLink>
+         <RouterLink to="/about">about</RouterLink>
+         </nav>
+        
   </header>
-<Routerview/>
+
 <main>
-<Calculator/>
+<RouterView />
 </main>
 </template>
 
