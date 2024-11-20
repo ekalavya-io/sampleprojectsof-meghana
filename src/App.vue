@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import Card from './components/Card.vue'
 </script>
 
 <template>
@@ -7,6 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <nav>
       <RouterLink to="/">Calculator</RouterLink>
          <RouterLink to="/about">about</RouterLink>
+         <RouterLink to="/slot">slot</RouterLink>
          </nav>
         
   </header>

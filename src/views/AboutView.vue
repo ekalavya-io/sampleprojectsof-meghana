@@ -39,7 +39,7 @@ function showAlert() {
 
 <template>
   <v-form v-model="valid" @submit.prevent>
-    <v-container>
+    <v-container class="container">
       <v-row>
         <v-col cols="12" md="4" >
           <v-text-field v-model="firstname" :counter="10" :rules="nameRules" label="First name" required ></v-text-field>
@@ -59,5 +59,7 @@ function showAlert() {
 </template>
 
 <style>
-
+.container{
+     background-color: #181818;
+}
 </style>
